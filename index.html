@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson-3</title>
+</head>
+<style>
+    .content {
+        text-align: center;
+        height: 100vh;
+    }
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        justify-content: space-around;
+        list-style: none;
+        height: 80%;
+    }
+    li {
+        display: flex;
+        font-size: 550%;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin-bottom: 50px;
+        padding: 15px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    li:nth-child(even) {
+        background: #80ab5b;
+    }
+    .active {
+        background: silver!important;
+        box-shadow: 0 0 10px 2px red;
+        transition: .5s;
+        opacity: 1;
+    }
+</style>
+<body>
+<div class="content">
+    <h1>Деллигирование</h1>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
